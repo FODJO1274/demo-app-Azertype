@@ -1,0 +1,126 @@
+header h1, h2, h4 {
+    text-align: center;   
+}
+header h1 {
+    color: rgb(241, 92, 58);
+    font-weight: 600;
+}
+header h2 {
+    color: rgb(242, 122, 95);
+}
+header h4 {
+    color: rgb(241, 157, 138);
+}
+section {
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(222, 131, 61);
+    margin: auto;
+    height: 270px;
+}
+#suggest {
+    border: 1px solid;
+    margin:0px 22px 7px 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(241, 92, 58);
+    font-weight: bolder;
+
+}
+#texte {
+    display: inline-block;
+}
+#texte input {
+    width: 397px;
+    border-radius: 6px;
+    border: 1px;
+    height: 20px;
+}
+#valider {
+    display: inline-block;
+}
+#valider :hover, #partager :hover {
+    background-color: rgb(254, 219, 211);
+}
+#valider input {
+    border-radius: 6px;
+    border: 1px;
+    height: 20px;
+    color: rgb(241, 92, 58);
+}
+#partager input {
+    border-radius: 6px;
+    border: 1px;
+    height: 20px;
+    margin-top: 10px;
+}
+.score {
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+    border: 1px;
+    margin-top: 150px;
+    padding: 20px 0px 20px 0px;
+    background-color: rgb(222, 131, 61);
+    color: rgb(255, 255, 255);
+}
+body {
+    font-family: sans-serif;
+}
+
+/*popup-------------*/
+#popupBackground {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;   
+    display: none;
+}
+.popup {
+    border: solid 1px;
+    background-color: rgb(250, 88, 51);
+    position: absolute;
+    top: 20%;
+    left: 39%;
+    padding: 5px 20px 25px 20px;
+    border-radius: 25px;
+    border: 1px;
+    color: white;
+    text-align: center;
+
+}
+form {
+    /*text-align: center;*/
+}
+input[type="text"], input[type="email"] {
+    margin-bottom: 18px;
+    height: 25px;
+    padding-left: 5px;
+    border-radius: 8px;
+    border: 1px;
+    width: 106%;
+    margin-left: -10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+button {
+    border-radius: 6px;
+    border: 1px;
+    padding: 3px 5px;
+    font-size:14px;
+    font-weight: bold;
+    color:rgb(222, 131, 61);
+}
+.open {
+    display: flex !important;
+}
+
+
